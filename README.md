@@ -40,18 +40,17 @@ The National Aeronautics and Space Administration and Federal Bureau of Investig
 
 ## Customizing Acronyms
 
-To add or modify acronyms, edit the `acronyms` dictionary in the `acronym_expander.py` file:
+To add or modify acronyms, edit the `dictionary.csv` file. Each line should contain an acronym and its full form, separated by a comma:
 
-```python
-acronyms = {
-    "NASA": "National Aeronautics and Space Administration",
-    "FBI": "Federal Bureau of Investigation",
-    "CIA": "Central Intelligence Agency",
-    "UN": "United Nations",
-    "WHO": "World Health Organization"
-    # Add your own acronyms here
-}
 ```
+NASA,National Aeronautics and Space Administration
+FBI,Federal Bureau of Investigation
+CIA,Central Intelligence Agency
+UN,United Nations
+WHO,World Health Organization
+```
+
+You can add your own acronyms to this file, one per line, following the same format.
 
 ## License
 
